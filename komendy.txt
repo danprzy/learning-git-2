@@ -1,0 +1,5 @@
+node_modules/.bin/autoprefixer-cli -o style_prefixed.css style.css
+
+node_modules/.bin/nu-html-checker *.html
+
+node_modules/.bin/browser-sync start --server --files "style.css" "*.html"
